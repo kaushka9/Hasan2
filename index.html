@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>السيرة الذاتية</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Cairo',sans-serif;
+}
+
+body{
+background:linear-gradient(-45deg,#000000,#0d0000,#1a0000,#330000);
+background-size:400% 400%;
+animation:gradientBG 12s ease infinite;
+color:white;
+overflow-x:hidden;
+}
+
+@keyframes gradientBG{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:20px;
+}
+
+.profile-img{
+width:220px;
+height:220px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid white;
+animation:float 3s ease-in-out infinite;
+box-shadow:0 10px 30px rgba(0,0,0,0.5);
+display:block;
+margin:20px auto;
+}
+
+@keyframes float{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-15px);}
+100%{transform:translateY(0px);}
+}
+
+h1{
+text-align:center;
+margin-top:10px;
+font-size:28px;
+}
+
+.subtitle{
+text-align:center;
+color:#ffcccc;
+margin-bottom:20px;
+}
+
+/* زر واتساب */
+.whatsapp-btn{
+display:inline-block;
+margin:20px auto;
+background:#25D366;
+color:white;
+padding:12px 22px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.whatsapp-btn:hover{
+background:#1ebe5d;
+transform:scale(1.05);
+}
+
+.cv{
+padding:30px;
+background:#1a1a1a;
+border-radius:25px;
+line-height:2.2;
+box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+.section-title{
+color:#ff4d4d;
+margin-top:20px;
+margin-bottom:10px;
+font-size:20px;
+border-right:4px solid red;
+padding-right:10px;
+}
+
+ul{
+list-style:none;
+padding-right:10px;
+}
+
+li{
+margin:8px 0;
+padding:10px;
+background:#222;
+border-radius:10px;
+}
+
+.footer{
+text-align:center;
+margin-top:20px;
+color:#aaa;
+font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="profile.jpg" class="profile-img" alt="الصورة الشخصية">
+
+<h1>الكابتن حسن شهابي</h1>
+<div class="subtitle">مدرب كمال أجسام | قوة بدنية | لياقة بدنية</div>
+
+<!-- زر واتساب -->
+<div style="text-align:center;">
+<a class="whatsapp-btn" href="https://wa.me/905348824789" target="_blank">
+📱 تواصل عبر واتساب
+</a>
+</div>
+
+<div class="cv">
+
+<div class="section-title">الشهادات</div>
+<ul>
+<li>حاصل على شهادة مستوى أول في تدريب كمال الأجسام</li>
+<li>حاصل على شهادة مستوى أول في القوة البدنية</li>
+<li>حاصل على شهادة مستوى أول في لياقة الأجسام</li>
+</ul>
+
+<div class="section-title">التحكيم</div>
+<ul>
+<li>حكم درجة أولى في كمال الأجسام</li>
+<li>حكم درجة أولى في اللياقة البدنية</li>
+<li>حكم درجة ثانية في القوة البدنية</li>
+</ul>
+
+<div class="section-title">الخبرة</div>
+<ul>
+<li>خبرة 10 سنوات في التدريب الرياضي</li>
+<li>خبير في تطوير الأداء البدني وبناء الأجسام</li>
+</ul>
+
+<div class="section-title">التخصصات والخدمات</div>
+<ul>
+<li>🔥 نظام تنحيف مريح: برنامج صحي يساعد على خسارة الوزن بدون حرمان وبمتابعة مستمرة</li>
+<li>🍎 نظام غذائي متكامل: خطة غذائية احترافية لزيادة الطاقة وتحسين اللياقة وبناء جسم متناسق</li>
+<li>💪 خطة تدريبية للضخامة: برنامج احترافي لزيادة الكتلة العضلية خلال 3 أشهر بنتائج واضحة</li>
+</ul>
+
+<div class="section-title">الانتماء</div>
+<ul>
+<li>عضو في الاتحاد الرياضي السوري</li>
+</ul>
+
+<div class="section-title">مهارات إضافية</div>
+<ul>
+<li>خبير في الهرمونات و PTS</li>
+</ul>
+
+</div>
+
+<div class="footer">
+© جميع الحقوق محفوظة
+</div>
+
+</div>
+
+</body>
+  </html>
