@@ -131,9 +131,43 @@ font-size:14px;
 
 <div class="container">
 
-<img src="Screenshot_٢٠٢٦-٠٥-٣٠-١٠-٤٩-٢٤-٢٥٣_com.whatsapp.jpg"
-     alt="صورة"
-     style="width:100%; max-width:400px; height:auto; display:block; margin:auto;">
+<img src="Screenshot_٢٠٢٦-٠٥-٣٠-١٠-٤٩-٢٤-٢٥٣_com.whatsapp.jpg" alt="صورتي" class="profile-img">
+
+<style>
+.profile-img{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+    margin:auto;
+    border:4px solid white;
+    animation:rainbowGlow 3s infinite linear;
+}
+
+@keyframes rainbowGlow{
+    0%{
+        box-shadow:0 0 15px #ff0000, 0 0 30px #ff0000;
+    }
+    20%{
+        box-shadow:0 0 15px #ff8800, 0 0 30px #ff8800;
+    }
+    40%{
+        box-shadow:0 0 15px #ffff00, 0 0 30px #ffff00;
+    }
+    60%{
+        box-shadow:0 0 15px #00ff00, 0 0 30px #00ff00;
+    }
+    80%{
+        box-shadow:0 0 15px #00aaff, 0 0 30px #00aaff;
+    }
+    100%{
+        box-shadow:0 0 15px #ff00ff, 0 0 30px #ff00ff;
+    }
+}
+</style>
+     
+
 
 <h1>الكابتن حسن شهابي</h1>
 <div class="subtitle">مدرب كمال أجسام | قوة بدنية | لياقة بدنية</div>
